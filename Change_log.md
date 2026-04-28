@@ -4,6 +4,20 @@
 
 #### [💾Latest stable release](https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/latest)
 ---
+## v3.136.01
+- NEW Model: v1.8 update for [AnimeVideo-Mini] model, with improved denosie and details reconstruction.
+- Improved support for high-DPI displays.
+- Fixed blurry appearance of the browser when opening local HTML help documentation.
+- Resolved issue where local help documentation failed to open properly on some PCs.
+- Fix bug: Engine crash when upscaling extremely small images.
+---
+## v3.135.01
+- Faster batch processing of images through further pipeline optimization.
+- Optimize code to improve the performance of [Frame Analysis].
+- NEW Feature: [NEVER convert to MP4], skip compatibility check and mp4 conversion entirely.(Location: Additional Settings Tab)
+- Improve UI and adjust some UI components.
+- Complete missing translations.
+---
 ## v3.134.01
 - Updated Waifu2x-NCNN-Vulkan Engine, overall 22% faster than previous version.
 - Improved subtitle processing logic, now supports a wider range of subtitle formats.
